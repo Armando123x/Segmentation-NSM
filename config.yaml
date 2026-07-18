@@ -1,0 +1,10 @@
+DATASET:
+  TRAIN_PATH: "./dataset_segmentation_meteors/train"
+  TEST_PATH: "./dataset_segmentation_meteors/test"
+
+SAM:
+  CHECKPOINT: "/app/vision_distribuida/weights_sam/sam_vit_b_01ec64.pth"
+  RANK: 2
+TRAIN:
+  BATCH_SIZE: 1
+  NUM_EPOCHS: 50

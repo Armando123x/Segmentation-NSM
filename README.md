@@ -1,0 +1,1 @@
+Create a enviroment using miniconda with python 3.11 and then install specific libraries in requirements.txt 
